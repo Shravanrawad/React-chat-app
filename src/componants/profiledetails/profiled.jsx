@@ -14,7 +14,7 @@ function Profiled() {
   const auth = getAuth(app)
   const {currentUser} = useUserStore()
 
-  const {chatId, user, isCurrentUserBlocked,  isReceiverblocked,changeblock, changechat} = useChatStore()
+  const {chatId, user, isCurrentUserBlocked,  isReceiverblocked, changeblock, changechat} = useChatStore()
 
 
   const handelblock = async () => {
