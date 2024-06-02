@@ -5,7 +5,7 @@ import phoneimg from '../../../assets/phone.png';
 import videoimg from '../../../assets/video.png';
 import infoimg from '../../../assets/info.png';
 import emojiimg from '../../../assets/emoji.png';
-import img from '../../../assets/img.png';
+import imges from '../../../assets/img.png';
 import cameraimg from '../../../assets/camera.png';
 import micimg from '../../../assets/mic.png';
 import EmojiPocker from 'emoji-picker-react';
@@ -31,7 +31,7 @@ function Chats() {
 
   useEffect(() => {
     endref.current?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+  }, [chat?.messages]);
 
   useEffect(() => {
     if (user) return;
@@ -151,7 +151,7 @@ function Chats() {
       <div className='bottom'>
         <div className='icons'>
           <label htmlFor='file'>
-            <img src={img} alt='' />
+            <img src={imges} alt='' />
           </label>
           <input type='file' id='file' style={{ display: 'none' }} onChange={handelimg} />
           <img src={cameraimg} alt='' />

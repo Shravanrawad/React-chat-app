@@ -39,12 +39,9 @@ function App() {
     {
       currentUser ? (
         <>
-        {!chatId ? (<List/>) : <Chats/> 
-
-        }
-        {/* <List/>
+        <List/>
         {chatId && <Chats/>}
-        {chatId && <Profiled/>}  */}
+        {chatId && <Profiled/>}
         </>
       ) : (<Login/>)
     }    
