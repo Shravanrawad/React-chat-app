@@ -36,7 +36,6 @@ function Profiled() {
        <div className="user">
            <img src={user?.avatar || avatarimg} alt="" />
            <h2>{user?.username}</h2>
-           <p>sssdmsd sdmmds</p>
        </div>
        <div className="info">
 
