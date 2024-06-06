@@ -7,6 +7,7 @@ A real-time chat application built with React and Firebase authentication.
 
 -React
 - Firebase (Firestore, Authentication)
+- Zustand
 - HTML/CSS
 - JavaScript
   
